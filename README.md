@@ -1,4 +1,4 @@
-# Node.js Logging with ELK Integration
+# NextJS Error Handling and Node.js Logging with ELK Integration
 
 Seamlessly integrate Nextjs, Node.js application logs with the ELK (Elasticsearch, Logstash, and Kibana) stack for effective log management and analysis.
 
