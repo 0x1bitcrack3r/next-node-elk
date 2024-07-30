@@ -1,0 +1,35 @@
+{
+  "name": "my-nextjs-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "dev1": "NODE_ENV=development node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "next-start": "next start"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "fastify": "^4.28.1",
+    "fastify-http-proxy": "^6.3.0",
+    "fastify-nextjs": "^7.3.0",
+    "fastify-static": "^4.7.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-error-boundary": "^4.0.13",
+    "stacktrace-parser": "^0.1.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5"
+  }
+}
